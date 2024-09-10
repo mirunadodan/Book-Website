@@ -1,0 +1,76 @@
+/* Utils */
+
+btn:focus, a:focus
+{
+    outline: none;
+}
+.navbar-toggler:focus,.form-control:focus,.form-select:focus
+{
+    outline: none !important;
+    box-shadow: none;
+}
+.btn {
+    border: none;
+    background-color: #34293A;
+    color: white;
+}
+.btn:hover {
+    background-color: #AD9148;
+}
+
+/* Nav section */
+
+.nav__link:hover {
+    color: #AD9148;
+}
+
+/* Hero section */
+
+.bg-gradient {
+    background: rgb(255,255,255);
+    background: linear-gradient(329deg, rgba(255,255,255,1) 29%, rgba(238,235,234,1) 71%, rgba(0,0,0,0.7344187675070029) 100%)!important;  
+}
+.hero__img {
+    background-position: right;
+    background-size: cover;
+}
+.hero__btn:hover {
+    color: white;
+}
+
+
+/* Courses section */
+
+.courses__btn:hover {
+    background-color:#AD9148!important;
+    border:#AD9148;
+}
+.card {
+    transition: all .2s ease-out;
+}
+.card:hover {
+    box-shadow: 20px 20px 37px -1px #34293a36;
+    transform: translateY(-5px);
+}
+.acc__header {
+    font-weight: bold!important;
+}
+.accordion-button:not(.collapsed) {
+    border: 2px solid #b96330;
+    background-color: white;
+    color: black;
+}
+.accordion-button:focus {
+    box-shadow: none;
+    border-color:#b96330;
+}
+
+/* Contact section */
+
+.form-control:focus,.form-select:focus
+{
+     border-color:#b96330;
+}
+.option:focus, .option:checked {
+    background-color: #ad90484c!important;
+}
